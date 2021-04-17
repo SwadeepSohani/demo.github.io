@@ -20,7 +20,10 @@ a{
     color: black;
 }
 
-
+p{
+    margin: 0;
+    padding: 0;
+}
  /* ------- above-header ------- */
  .above-header {
      display: block;
