@@ -16,25 +16,32 @@
      margin: 0;
      padding: 0;
  }
-a{
-    color: black;
-}
 
-p{
-    margin: 0;
-    padding: 0;
-}
+ a {
+     color: black;
+ }
+
+ p {
+     margin: 0;
+     padding: 0;
+ }
+
  /* ------- above-header ------- */
  .above-header {
      display: block;
      width: 100%;
-     background-color: yellow;
+     background-color: #7169e6;
  }
 
  .container-above-head {
      width: 1400px;
      display: table;
      margin: auto;
+ }
+
+ .container-above-head a {
+     color: white;
+     font-size: 15px;
  }
 
  .container-above-head .cols-50 {
@@ -50,6 +57,10 @@ p{
 
  .timing {
      text-align: right;
+ }
+
+ .cols-50.timing p {
+     padding: 6px 0;
  }
 
  /* ------- header ------- */
